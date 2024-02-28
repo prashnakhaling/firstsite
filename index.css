@@ -8,13 +8,23 @@
 .container-inner{
     max-width: 1140px;
     margin: auto;
+    /* font-family:Arial, Helvetica, sans-serif; */
 }
 nav{
     display:flex;
     padding:10px;
+  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:white;
     word-spacing:20px;
     justify-content:space-around;
+}
+.nav-menu{
+    margin-top:5px;
+}
+.logo{
+    height:30px;
+    width:140px;
 }
 .banner{
     width:98%;
@@ -23,7 +33,8 @@ nav{
     /* background-color:black; */
     
     color:white;
-    background-image: url("./image/darkvase.jpg");
+    background-image: url("./image/banneroption5.jpg");
+    background-size:cover;
     
 }
 .ceramicstd{
@@ -43,8 +54,9 @@ nav{
 }
 .desc{
     text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin:auto;
-    width:50%;
+    width:70%;
 
 }
 .show{
@@ -56,10 +68,9 @@ nav{
 
 .topheading{
     padding-top:80px;
-    padding-bottom:25px;
     text-align:center;
     font-size:40px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     justify-content:center;
 }
 
@@ -70,6 +81,7 @@ pre{
 }
 .topic{
     font-size:30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top:70px;
     padding-bottom:30px;
     text-align:center;
@@ -77,8 +89,10 @@ pre{
     
 }
 .best-sellery-image{
+    margin:auto;
     display: flex;
     gap: 20px;
+    /* justify-content: center; */
 }
 .best-sellery-image .bestsellery-imageContent{
     width: 30%;
@@ -86,8 +100,8 @@ pre{
     margin:auto;
 }
 .category{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
     
 }
 
@@ -96,35 +110,35 @@ pre{
 
 }
 .best-sellery-image{
-    border-bottom:1px solid;
+    border-bottom:1px solid grey;
     padding-bottom:20px;
 }
 .best-sellery-image .bestsellery-imageContent img{
-    max-width: 100%;
+    max-width: 95%;
 }
+/* pagethree */
 .newCollection{
     max-width:100%;
     margin-top:4em;
     background-color:lightgray;
 }
 .newCOllection-content h2{
-    padding-top:120px;
+    padding-top:150px;
     padding-bottom:15px;
     font-size:38px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .newCOllection-content{
     float: left;
     width: 50%;
 }
 
-/* .newCOllection-image img{
-    max-height: 400px;
-    max-width: 400px;
-    width: 100%;
-    object-fit: cover;
-} */
+
 .aboutThree{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom:40px;
+    padding-right:150px;
+   
 }
 
 .moreButton{
@@ -135,66 +149,33 @@ pre{
 }
 .rightside{
     display:flex;
-    align-items: center;
-    width:50%;
-    gap:10px;
-    padding:30px;
+    
+    gap:15px;
+    padding:40px;
 }
+
 .leftimage{
     display: flex;
     flex-direction: column;
-    gap:10px;
-    /* width:100%;
-    height:100%; */
+    gap:15px;
+
 }
 .rightside img{
     width:100%;
 }
-/* .leftimage{
-    width:10px;
-    height:35px;
-    display:flex;
-    padding:0%;
+.fullimage{
+    height:100%;
 }
-.imageone{
-    width:50px;
-    height:50px;
+.upperimage{
+    height:240px;
 }
-.imagetwo{
- width:10px;
- height:50px;
- 
+.lowerimage{
+    height:240px;
 }
-.imagethree{
-width:10px;
-height:10px;
-display:flex;
-} */
 
-/* 4th page */
-/* .workshops{
-    display: flex;
-    width: 50%;
-    margin: auto;
-    gap: 100px;
-    align-items: center;
-    padding:30px;
-}
-.pottery{
-    margin-right:10px;
-}
-.workshopdesc{
-    padding-top:55px;
-    padding-bottom:10px;
-}
-.subscribebutton{
-    width:40px;
-    height:50px;
-    text-decoration:none;
-    color:white;
-} */
+/* fourthpagecss */
 .workshops{
-    /* padding-top:10px; */
+   
     display:flex;
     max-width: 1140px;
     margin:auto;
@@ -202,8 +183,7 @@ display:flex;
 }
 .handpottery{
     width:50%;
-    /* background-color:lavender; */
-
+  
 }
 .pottery{
 width:85%;
@@ -217,17 +197,18 @@ margin-right:50%;
     flex-direction: column;
     width:50%;
     margin-left: 15px;
-    /* background-color:pink; */
+   
 }
 .workshopdesc{
     font-size:38px;
     padding-top:130px;
     padding-bottom:15px;
     text-align:left;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
 .workshopdetails{
-    /* padding-left:125px; */
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     justify-content:center;
     padding-right:215px;
     padding-bottom:20px;
@@ -242,38 +223,44 @@ margin-right:50%;
     color:white;
     background-color: rgb(238, 96, 96);
 }
+/* emplpoyeesection */
 .employeesection{
     max-width:100%;
-    height:500px;
+    height:520px;
     background-color: lightgrey;
 }
 .employees{
     text-align:center;
     padding-top:100px;
-    padding-bottom:70px;
+    padding-bottom:55px;
+    font-size:38px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .employeedetails{
     display:flex;
     justify-content:center;
     flex-wrap: nowrap;
     gap:110px;
-    padding-left:250px;
-    padding-right:150px;
+    
+    
 }
 .employeeprofile{
     width:115px;
-    height:105px;
+    height:110px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
     border-radius:50%; 
 }
 .nameofemployee{
     padding-top:15px;
     padding-bottom:15px;
-    padding-left:10px;
     font-size:20px;
+    text-align:center;
 }
 .aboutemployee{
-   
-    padding-right:30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
     width:280px;
     
     
@@ -282,24 +269,23 @@ margin-right:50%;
 
 .imageonly{
     width:100%;
-    height:520px;
+    height:550px;
     padding-right:50px;
-    padding-bottom:10px;
+  
    
 }
 .imageline{
     display:flex;
     gap:10px;
     height:500px;
-    padding-top:60px;
-    /* background-color: lavender; */
+    padding-top:40px;
+    
     
 
 }
 .flowervase{
     width:50%;
    justify-content: right;
-   /* background-color: pink; */
 }
 .vase{
     float:right;   
@@ -310,7 +296,7 @@ margin-right:50%;
     flex-direction:column;
     gap:10px;
     width:50%;
-    /* background-color:grey; */
+
 }
 .bowlimage{
    height:50%;
@@ -337,7 +323,8 @@ margin-right:50%;
 .finalpage{
     max-width:100%;
     height:520px;
-    background-image: url("./image/lastimage.jpg");
+    background-image: url("./image/option9.jpg");
+    background-size:100%;
     
 }
 .ourstory{
@@ -347,18 +334,47 @@ margin-right:50%;
 
 }
 .lastpage{
-    font-family:'Times New Roman', Times, serif;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom:10px;
 }
 .aboutstory{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-right:75%;
 }
 .contactinfo{
     max-width:100%;
-    height:70px;
+    height:110px;
     background-color: black;
     color:white;
     display:flex;
 }
-.upperinfo{
-    word-spacing:10px;
+.information{
+    display:flex;
+    gap:95px;
+}
+.information2{
+   display:flex;
+   gap:115px;
+   padding-top:15px;
+}
+.onlylogos{
+    color:green;
+    padding-left:10px;
+    display:flex;
+    gap:15px;
+}
+.cookies{
+    height:40px;
+   display:flex;
+   gap:20px;
+   justify-content:center;
+   padding-top:15px;
+   padding-left:10px;
+}
+.understand{
+    height:20px;
+    color:rgb(16, 4, 4);
+    text-decoration:none;
+    background-color:lightgrey;
+
 }
