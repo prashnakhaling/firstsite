@@ -1,0 +1,31 @@
+.mainpage{
+    width:70%;
+    height:60%;
+    background-color:rgb(96, 110, 237);
+    margin:auto;
+    padding-left:15px;
+}
+/* .innerpage{
+    width:65%;
+    height:55%;
+} */
+#title{
+    margin-top:20px;
+    margin-bottom:5px;
+    width:85px;
+    height:20px;
+    
+   
+}
+#content{
+    width:200px;
+    height:100px;
+    
+
+}
+#image{
+    margin-top:5px;
+    margin-bottom:5px;
+    /* width:85px;
+    height:85px; */
+}
